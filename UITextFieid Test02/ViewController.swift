@@ -18,7 +18,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         // 3. delegate 객체와 ViewController 객체 연결
         myTextField.delegate = self
-        
         myTextField.clearButtonMode = UITextField.ViewMode.always
         myTextField.placeholder = "숫자를 입력하세요!"
         
